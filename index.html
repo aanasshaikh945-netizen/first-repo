@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <nav>
+        <a href="first.html">Home</a>
+        <a href="second.html">About</a>
+        <a href="third.html">Contact</a>
+    </nav>
+    <h1><em>Admission Form</em></h1>
+        <form action="">
+            <p><strong>Personal Information:</strong></p>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="Enter your first name">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Enter your last name">
+            <label for="photo">Upload Your Photo:</label>
+            <input type="file" id="photo">
+            <br><br>
+            <label for="father-name">Father's Name:</label>
+            <input type="text" id="father-name" placeholder="Enter your father's name">
+            <label for="mother-name">Mother's Name:</label>
+            <input type="text" id="mother-name" placeholder="Enter your mother's name">
+            <br><br>
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <hr>
+            <p><strong>Address:</strong></p>
+            <lebel for="phone">Phone Number:</lebel>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+            <br><br>
+            <label for="village">Road/Village:</label>
+            <input type="text" id="village" placeholder="Enter the road no. or village name">
+            <lebel for="city">City:</lebel>
+            <select id="city">
+                <option value="Cumilla">Cumilla</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+            </select>
+            <br><br>
+            <hr>
+            <p><strong>Select Course:</strong></p>
+            <input type="checkbox" id="course1" value="course1">
+            <label for="course1">CSE</label>
+            <input type="checkbox" id="course2" value="course2">
+            <label for="course2">MEchanical</label>
+            <input type="checkbox" id="course3" value="course3">
+            <label for="course3">Civil</label>
+            <br><br>
+            <p><strong>Course Fee(For a semester):</strong></p>
+            <input type="radio" id="fee1" name="course-fee" value="fee1">
+            <label for="fee1"><strike>10000</strike> 5000 after discount (For CIVIL)</label>
+            <br>
+            <input type="radio" id="fee2" name="course-fee" value="fee2">
+        <label for="fee2"><strike>15000</strike> 10000 after discount (For MECHANICAL)</label>
+        <br>
+            <input type="radio" id="fee3" name="course-fee" value="fee3">
+            <label for="fee3"><strike>20000</strike> 15000 after discount (For CSE)</label>
+            <br><br>
+            <hr>
+            <p><strong>Contact Information:</strong></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <br><br>
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" placeholder="Enter your new password">
+            <br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password">
+            <br><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Register Now</button>
+            <br><br>
+            <a href="second.html">Already have an account? Login</a>
+        </form>
+        <footer>
+            <p>&copy; PH Batch 14 /2026. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
